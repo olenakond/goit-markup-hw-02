@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto"; sans-serif;
+    font-family: "Roboto", sans-serif;
     color:var(--text-color);
     background-color:var(--background-color) ;
 }
@@ -29,7 +29,7 @@ body {
 
 /* COMPONENTS */
 .logo {
-    font-family: "Raleway", sans-serif;;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -63,7 +63,7 @@ body {
 }
 
 .contacts-item {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -227,7 +227,7 @@ body {
     color: var(--brand-color-dark);
 }
 
-.portfolio-clas {
+.portfolio-class {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
