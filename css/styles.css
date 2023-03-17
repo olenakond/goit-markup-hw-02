@@ -1,5 +1,7 @@
 body {
-    font-family: Roboto; sans-serif;
+    font-family: "Roboto"; sans-serif;
+    color:var(--text-color);
+    background-color:var(--background-color) ;
 }
 
 .list {
@@ -22,11 +24,12 @@ body {
     --background-color-section:#F4F4FD;
     --text-color-footer:#F4F4FD;
     --filter-btn-color:#F4F4FD;
+    --background-color: #FFFFFF;
 }
 
 /* COMPONENTS */
 .logo {
-    font-family: 'Raleway';
+    font-family: "Raleway", sans-serif;;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -38,6 +41,10 @@ body {
 }
 
 /* HEADER */ 
+
+.contacts {
+    font-style: normal;
+}
 
 .logo-black {
     color:var(--brand-color-dark);
@@ -57,7 +64,6 @@ body {
 
 .contacts-item {
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -86,7 +92,7 @@ body {
 }
 
 .hero-btn {
-    font-family: 'Roboto';
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -193,6 +199,8 @@ body {
 /* FILTER */
 
 .filter-btn {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
